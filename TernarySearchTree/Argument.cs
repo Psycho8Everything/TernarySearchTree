@@ -20,7 +20,7 @@ namespace TernarySearchTree
 
         internal static void IsNotEmpty(string argument, string argumentName)
         {
-            if (argument == null)
+            if (argument.Length == 0)
             {
                 throw new ArgumentException("Argument cannot be an empty string.", argumentName);
             }
